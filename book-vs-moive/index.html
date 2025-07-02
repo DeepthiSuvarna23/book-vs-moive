@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>📚 Book vs Movie 🎬</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚 Book vs Movie 🎬</h1>
+
+      <div class="search-section">
+        <input
+          type="text"
+          id="titleInput"
+          placeholder="Enter a book or movie title..."
+        />
+        <button id="compareBtn">Compare</button>
+      </div>
+
+      <div id="verdict" class="verdict-box">🤔 Enter a title to compare...</div>
+
+      <div class="results">
+        <div class="card" id="bookResult">
+          <h2>Book Info</h2>
+          <div class="details" id="bookDetails">🔍</div>
+        </div>
+
+        <div class="card" id="movieResult">
+          <h2>Movie Info</h2>
+          <div class="details" id="movieDetails">🔍</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
